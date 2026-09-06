@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portal de Noticias</title>
+
+    <!-- CONECTAR CSS -->
+    <link rel="stylesheet" href="ESTILOS/estilos.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         CABECERA
+         ================================================== -->
+
+    <header>
+
+        <div class="cabecera">
+
+            <h1>PORTAL DE NOTICIAS</h1>
+
+            <p>Información, actualidad y noticias del Perú</p>
+
+        </div>
+
+
+        <!-- ==================================================
+             MENÚ
+             ================================================== -->
+
+        <nav>
+
+            <a href="index.html"
+               onclick="cargarPagina('index.html'); return false;">
+                INICIO
+            </a>
+
+            <a href="nacionales.html"
+               onclick="cargarPagina('nacionales.html'); return false;">
+                NACIONALES
+            </a>
+
+            <a href="deportes.html"
+               onclick="cargarPagina('deportes.html'); return false;">
+                DEPORTES
+            </a>
+
+            <a href="espectaculos.html"
+               onclick="cargarPagina('espectaculos.html'); return false;">
+                ESPECTÁCULOS
+            </a>
+
+            <a href="cultura.html"
+               onclick="cargarPagina('cultura.html'); return false;">
+                CULTURA
+            </a>
+
+            <a href="contacto.html"
+               onclick="cargarPagina('contacto.html'); return false;">
+                CONTACTO
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ==================================================
+         CONTENIDO
+         ================================================== -->
+
+    <main>
+
+        <div id="contenido">
+
+
+            <!-- ==================================================
+                 SLIDER
+                 ================================================== -->
+
+            <section class="slider">
+
+
+                <!-- SLIDE 1 -->
+
+                <div class="slide">
+
+                    <img
+                        src="IMAGENES_INICIO/noticia_peru1.avif"
+                        alt="Noticias Perú"
+                    >
+
+                    <div class="slide-contenido">
+
+                        <span class="etiqueta">
+                            NOTICIAS PERÚ
+                        </span>
+
+                        <h2>
+                            Las principales noticias del Perú
+                        </h2>
+
+                        <p>
+                            Conoce las noticias más importantes
+                            y los acontecimientos que marcan
+                            la actualidad nacional.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SLIDE 2 -->
+
+                <div class="slide">
+
+                    <img
+                        src="IMAGENES_INICIO/noticia_actualidad2.avif"
+                        alt="Actualidad Nacional"
+                    >
+
+                    <div class="slide-contenido">
+
+                        <span class="etiqueta">
+                            ACTUALIDAD NACIONAL
+                        </span>
+
+                        <h2>
+                            La actualidad que marca la jornada
+                        </h2>
+
+                        <p>
+                            Información sobre los acontecimientos
+                            más importantes que ocurren en el país.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SLIDE 3 -->
+
+                <div class="slide">
+
+                    <img
+                        src="IMAGENES_INICIO/noticia_deportiva3.avif"
+                        alt="Noticias Deportivas"
+                    >
+
+                    <div class="slide-contenido">
+
+                        <span class="etiqueta">
+                            DEPORTES
+                        </span>
+
+                        <h2>
+                            Toda la actualidad deportiva
+                        </h2>
+
+                        <p>
+                            Resultados, noticias y novedades
+                            del deporte nacional e internacional.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- ==================================================
+                 ÚLTIMAS NOTICIAS
+                 ================================================== -->
+
+            <section class="seccion">
+
+                <div class="titulo-seccion">
+
+                    <span>INFORMACIÓN</span>
+
+                    <h2>ÚLTIMAS NOTICIAS</h2>
+
+                </div>
+
+
+
+                <div class="lista-noticias">
+
+
+                    <!-- NOTICIA 1 -->
+
+                    <article class="tarjeta-noticia">
+
+                        <img
+                            src="IMAGENES_INICIO/noticia_peru1.avif"
+                            alt="Noticias Perú"
+                        >
+
+                        <div class="contenido-tarjeta">
+
+                            <span class="etiqueta">
+                                CONGRESO
+                            </span>
+
+                            <p class="fecha">
+                                02 DE SEPTIEMBRE DE 2026
+                            </p>
+
+                            <h3>
+                                Keiko habla sobre el
+                                atentado en Trujillo
+                            </h3>
+
+                            <p>
+                                Keiko Fujimori rechaza haber sido malinformada 
+                                sobre detenidos por crimen en Trujillo: 
+                                "Estas personas han confesado"
+                            </p>
+
+                            <a href="#" class="boton" onclick="cargarPagina('nacionales.html'); return false;">
+    LEER MÁS
+</a>
+
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- NOTICIA 2 -->
+
+                    <article class="tarjeta-noticia">
+
+                        <img
+                            src="IMAGENES_INICIO/noticia_actualidad2.avif"
+                            alt="Actualidad Nacional"
+                        >
+
+                        <div class="contenido-tarjeta">
+
+                            <span class="etiqueta">
+                                POLICIAL
+                            </span>
+
+                            <p class="fecha">
+                                02 DE SEPTIEMBRE DE 2026
+                            </p>
+
+                            <h3>
+                                La captura de Jhonsson Pulpo 
+                                en Bolivia
+                            </h3>
+
+                            <p>
+                                Luis Galarreta tras arribo de 'Jhonsson Pulpo' 
+                                a Lima: "Desde el día uno dijimos 
+                                que vamos a capturarlos"
+                            </p>
+
+                            <a href="#" class="boton" onclick="cargarPagina('nacionales.html'); return false;">
+    LEER MÁS
+</a>
+
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- NOTICIA 3 -->
+
+                    <article class="tarjeta-noticia">
+
+                        <img
+                            src="IMAGENES_INICIO/noticia_deportiva3.avif"
+                            alt="Noticias Deportivas"
+                        >
+
+                        <div class="contenido-tarjeta">
+
+                            <span class="etiqueta">
+                                DEPORTES
+                            </span>
+
+                            <p class="fecha">
+                                02 DE SEPTIEMBRE DE 2026
+                            </p>
+
+                            <h3>
+                                Ignacio Buse avanza a segunda 
+                                ronda del US Open
+                            </h3>
+
+                            <p>
+                                “Nacho” derrotó en cinco sets al norteamericano 
+                                Marcos Giron y, con ello, no solo aseguró 
+                                su boleto a la segunda ronda, sino 
+                                también un importante premio económico.
+                            </p>
+
+                            <a href="#" class="boton" onclick="cargarPagina('nacionales.html'); return false;">
+    LEER MÁS
+</a>
+
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </section>
+
+
+
+            <!-- ==================================================
+                 ACTUALIDAD NACIONAL
+                 ================================================== -->
+
+            <section class="seccion">
+
+                <div class="titulo-seccion">
+
+                    <span>ACTUALIDAD</span>
+
+                    <h2>ACTUALIDAD NACIONAL</h2>
+
+                </div>
+
+
+
+                <div class="actualidad">
+
+
+                    <!-- NOTICIA PRINCIPAL -->
+
+                    <article class="noticia-grande">
+
+                        <img
+                            src="IMAGENES_INICIO/actualidad nacional0.avif"
+                            alt="Actualidad Nacional"
+                        >
+
+                        <div class="noticia-grande-texto">
+
+                            <span class="etiqueta">
+                                NACIONALES
+                            </span>
+
+                            <h3>
+                                Los pulpos pedían
+                                5 millones de dólares.
+                            </h3>
+
+                            <p>
+                                Padre del empresario Jenss Lara niega haber 
+                                pagado por la liberación de su hijo: 
+                                "Un amigo me ayudó a buscar la solución"
+                            </p>
+
+                            <a href="#" class="boton" onclick="cargarPagina('nacionales.html'); return false;">
+    LEER MÁS
+</a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- NOTICIAS PEQUEÑAS -->
+
+                    <div class="noticias-laterales">
+
+
+                        <article class="noticia-horizontal">
+
+                            <img
+                                src="IMAGENES_INICIO/actualidad_nacional1.avif"
+                                alt="Noticias del Perú"
+                            >
+
+                            <div>
+
+                                <span class="etiqueta">
+                                    NACIONALES
+                                </span>
+
+                                <h3>
+                                    Sucamec 
+                                    y Emape
+                                </h3>
+
+                                <p>
+                                    Reggiardo aclaró que Emape no brindará 
+                                    servicios de seguridad para 
+                                    otras instituciones.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+
+                        <article class="noticia-horizontal">
+
+                            <img
+                                src="IMAGENES_INICIO/actualidad_nacional2.avif"
+                                alt="Información Nacional"
+                            >
+
+                            <div>
+
+                                <span class="etiqueta">
+                                    ACTUALIDAD
+                                </span>
+
+                                <h3>
+                                    Abandono al adulto mayor
+                                </h3>
+
+                                <p>
+                                    Diputado Christian Aranda presentó proyecto 
+                                    para crear el delito por abandono y desamparo del adulto mayor.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+
+
+            <!-- ==================================================
+                 NOTICIAS DEPORTIVAS
+                 ================================================== -->
+
+            <section class="seccion">
+
+                <div class="titulo-seccion">
+
+                    <span>DEPORTE</span>
+
+                    <h2>NOTICIAS DEPORTIVAS</h2>
+
+                </div>
+
+
+
+                <div class="lista-noticias">
+
+
+                    <article class="tarjeta-noticia">
+
+                        <img
+                            src="IMAGENES_INICIO/deportiva1.jpeg"
+                            alt="Noticias Deportivas"
+                        >
+
+                        <div class="contenido-tarjeta">
+
+                            <span class="etiqueta">
+                                ALIANZA LIMA
+                            </span>
+
+                            <p class="fecha">
+                                03 DE SEPTIEMBRE DE 2026
+                            </p>
+
+                            <h3>
+                                ¿Renunció Guede?
+                            </h3>
+
+                            <p>
+                                Pablo Guede tuvo una conversación con 
+                                la dirigencia de Alianza Lima. 
+                                ¿De qué hablaron? ¿Presentó su renuncia?
+                            </p>
+
+                            <a href="#" class="boton" onclick="cargarPagina('deportes.html'); return false;">
+    LEER MÁS
+</a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="tarjeta-noticia">
+
+                        <img
+                            src="IMAGENES_INICIO/deportiva2.avif"
+                            alt="Fútbol"
+                        >
+
+                        <div class="contenido-tarjeta">
+
+                            <span class="etiqueta">
+                                RESULTADOS
+                            </span>
+
+                            <p class="fecha">
+                                03 DE SEPTIEMBRE DE 2026
+                            </p>
+
+                            <h3>
+                                Grau venció a Melgar
+                            </h3>
+
+                            <p>
+                                Grau consiguió tres puntos en casa al derrotar 
+                                por 1 a 0 a Melgar en el partido por la fecha 7 
+                                del campeonato peruano.
+                            </p>
+
+                            <a href="#" class="boton" onclick="cargarPagina('deportes.html'); return false;">
+    LEER MÁS
+</a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="tarjeta-noticia">
+
+                        <img
+                            src="IMAGENES_INICIO/deportiva3.avif"
+                            alt="Deporte Internacional"
+                        >
+
+                        <div class="contenido-tarjeta">
+
+                            <span class="etiqueta">
+                                LIGA 1
+                            </span>
+
+                            <p class="fecha">
+                                03 DE SEPTIEMBRE DE 2026
+                            </p>
+
+                            <h3>
+                                Yotún al Callao
+                            </h3>
+
+                            <p>
+                                Boys ya contactó con Yoshimar 
+                                Yotún para conocer la posibilidad de contar 
+                                con él en la temporada 2027.
+                            </p>
+
+                            <a href="#" class="boton" onclick="cargarPagina('deportes.html'); return false;">
+    LEER MÁS
+</a>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </section>
+
+
+        </div>
+
+    </main>
+
+
+
+    <!-- ==================================================
+         FOOTER
+         ================================================== -->
+
+    <footer>
+
+        <div class="footer-contenido">
+
+            <div>
+
+                <h2>PORTAL DE NOTICIAS</h2>
+
+                <p>
+                    Información, actualidad y noticias
+                    del Perú.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>SECCIONES</h3>
+
+                <p>Nacionales</p>
+
+                <p>Deportes</p>
+
+                <p>Espectáculos</p>
+
+                <p>Cultura</p>
+
+            </div>
+
+
+            <div>
+
+                <h3>CONTACTO</h3>
+
+                <p>
+                    noticiasperu@email.com
+                </p>
+
+                <p>
+                    +51 999 999 999
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-final">
+
+            <p>
+                © 2026 Portal de Noticias.
+                Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ==================================================
+         JAVASCRIPT PARA LA NAVEGACIÓN
+         ================================================== -->
+
+    <script>
+
+        function cargarPagina(pagina) {
+
+            fetch(pagina)
+
+                .then(respuesta => respuesta.text())
+
+                .then(datos => {
+
+                    const documento =
+                        new DOMParser().parseFromString(
+                            datos,
+                            "text/html"
+                        );
+
+                    const nuevoContenido =
+                        documento.querySelector("#contenido");
+
+                    if (nuevoContenido) {
+
+                        document.getElementById("contenido").innerHTML =
+                            nuevoContenido.innerHTML;
+
+                        window.scrollTo({
+                            top: 0,
+                            behavior: "smooth"
+                        });
+
+                    }
+
+                })
+
+                .catch(error => {
+
+                    document.getElementById("contenido").innerHTML = `
+
+                        <section class="error">
+
+                            <h2>ERROR</h2>
+
+                            <p>
+                                No se pudo cargar esta sección.
+                            </p>
+
+                        </section>
+
+                    `;
+
+                });
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
